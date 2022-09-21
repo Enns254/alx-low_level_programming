@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 #include "2-strlen.c"
 /**
@@ -13,8 +14,8 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			_putchar(str[i]);
+			putchar(str[i]);
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
