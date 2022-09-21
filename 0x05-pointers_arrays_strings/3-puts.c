@@ -1,6 +1,5 @@
-#iclude <stdio.h>
+#include <stdio.h>
 #include "main.h"
-#include "2-strlen.c"
 /**
  * _puts - puts a string
  *
