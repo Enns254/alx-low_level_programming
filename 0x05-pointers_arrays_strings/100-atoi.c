@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include "main.h"
 #include "2-strlen.c"
-#include <string.h>
+
 /**
  * _atoi - converts string to integer
  * @s: string to convert
@@ -15,7 +14,7 @@ int _atoi(char *s)
 	int c;
 	int d = 1;
 	int num = 0;
-	
+
 	for (i = 0; i < _strlen(s); i++)
 	{
 		if (!(s[i] >= '0' && s[i] <= '9') && c > 0)
@@ -34,7 +33,7 @@ int _atoi(char *s)
 		num += ((s[i - 1] - '0') * d);
 		i--;
 		c--;
-		d *= 10;
+																			d *= 10;
 	}
 	if (np >= 0)
 	{
